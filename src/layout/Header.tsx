@@ -16,6 +16,11 @@ export const Header = () => {
 const StyledHeader = styled.header`
     background-color: #adadad;
     display: flex;
-    
-    
+    justify-content: space-around;
+    align-items: center;
+    width: 1193px;
+    height: 59px;
+
+
+
 `
