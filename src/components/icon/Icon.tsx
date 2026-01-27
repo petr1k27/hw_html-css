@@ -1,13 +1,18 @@
 import sprite from '../../assets/images/sprite.svg';
 
 type IconPropsType = {
-    id: string;
+    iconId: string,
+    width?: string,
+    height?: string,
+    viewBox?: string,
+
 }
 
-export const Icon = (props:IconPropsType) => {
+export const Icon = (props: IconPropsType) => {
     return (
-        <svg width='97px' height='59px' xmlns='http://www.w3.org/2000/svg' >
-            <use xlinkHref={`${sprite}#${props.id}`} />
+        <svg width={props.width || '50px'} height={props.width || '50px'} viewBox={props.viewBox || '0 0 30 30'}
+             xmlns='http://www.w3.org/2000/svg'>
+            <use xlinkHref={`${sprite}#${props.iconId}`}/>
         </svg>
     );
 };
