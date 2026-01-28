@@ -5,8 +5,8 @@ export const Social = () => {
     return (
         <StyledSocialLinks>
             <ul>
-                <li><a href=""><Icon iconId={'octocat'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
-                <li><a href=""><Icon iconId={'twitter'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
+                <li><a href="https://github.com/"><Icon iconId={'octocat'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
+                <li><a href="https://x.com/"><Icon iconId={'twitter'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
                 <li><a href=""><Icon iconId={'linkedin'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
             </ul>
         </StyledSocialLinks>
@@ -16,7 +16,7 @@ export const Social = () => {
 const StyledSocialLinks = styled.nav `
     width: 130px;
     height: 32px;
-    background-color: cornflowerblue;
+
 
     ul {
         height: 100%;

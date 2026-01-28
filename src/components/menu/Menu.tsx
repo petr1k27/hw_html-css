@@ -22,5 +22,14 @@ const StyledMenu = styled.nav`
     }
     a {
         text-decoration: none;
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        vertical-align: middle;
+        color: #666666;
+    ;
+
     }
 `
