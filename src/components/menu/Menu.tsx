@@ -22,7 +22,7 @@ const StyledMenu = styled.nav`
     }
     a {
         text-decoration: none;
-        font-family: DM Sans;
+        font-family: DM Sans,sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 26px;

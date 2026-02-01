@@ -1,24 +1,19 @@
-import styled from "styled-components";
+
+import {Resume} from "../components/resume/Resume.tsx";
+import {TechStack} from "../components/techStack/TechStack.tsx";
+import {Projects} from "../components/projects/Projects.tsx";
+import {FeedBack} from "../components/feedback/FeedBack.tsx";
+import {AboutMe} from "../components/aboutMe/AboutMe.tsx";
 
 export const Body = () => {
-    return (
-        <StyledMain>
-            <div>
-                Hi,<br/>
-                My Name is<br/>
-                Pavan MG<br/>
-                I built things for web
-            </div>
-            <div>
-                <img src='../assets/images/photo.jpg' alt="my photo"/>
-            </div>
-
-
-
-        </StyledMain>
+    return (<div>
+            <AboutMe/>
+            <Resume/>
+            <TechStack/>
+            <Projects/>
+            <FeedBack/>
+        </div>
     );
 };
 
-const StyledMain = styled.main`
-    background-color: #0f518a
-`
+

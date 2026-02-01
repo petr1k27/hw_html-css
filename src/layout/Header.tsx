@@ -19,6 +19,9 @@ const StyledHeader = styled.header`
     align-items: center;
     width: 1193px;
     height: 59px;
+    position: absolute;
+    top: 41px;
+    left: 177px;
 
 
 
