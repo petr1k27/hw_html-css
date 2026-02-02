@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Image} from "../image/Image.tsx";
 
 
-export const AboutMe = () => {
+export const Introduce = () => {
     return (
         <StyledMain>
             <StyledDiv>
