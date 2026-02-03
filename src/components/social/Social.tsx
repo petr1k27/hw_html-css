@@ -5,7 +5,7 @@ export const Social = () => {
     return (
         <StyledSocialLinks>
             <ul>
-                <li><a href="https://github.com/"><Icon iconId={'octocat'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
+                <li><a href="https://github.com/"><Icon iconId={'octocat'} width={'30px'} height={'30px'} viewBox={"0 0 88 88"}/></a></li>
                 <li><a href="https://x.com/"><Icon iconId={'twitter'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
                 <li><a href=""><Icon iconId={'linkedin'} width={'30px'} height={'30px'} viewBox={"0 0 30 30"}/></a></li>
             </ul>

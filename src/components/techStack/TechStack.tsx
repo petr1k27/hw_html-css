@@ -1,42 +1,67 @@
 import styled from "styled-components";
+import {Technology} from "./technology/Technology.tsx";
 
 export const TechStack = () => {
     return (
         <StyledDiv>
-            <section>
+            <section className="title">
                 <h2>My Tech Stack</h2>
                 <p> Technologies I’ve been working with recently</p>
             </section>
             <section className="techStack">
-                <StyledSkill>1</StyledSkill>
-                <StyledSkill>2</StyledSkill>
-                <StyledSkill>3</StyledSkill>
-                <StyledSkill>4</StyledSkill>
-                <StyledSkill>5</StyledSkill>
-                <StyledSkill>6</StyledSkill>
-                <StyledSkill>7</StyledSkill>
-                <StyledSkill>8</StyledSkill>
-                <StyledSkill>9</StyledSkill>
-                <StyledSkill>10</StyledSkill>
-                <StyledSkill>11</StyledSkill>
-                <StyledSkill>12</StyledSkill>
+                <Technology iconId={"html"}/>
+                <Technology iconId={"css"}/>
+                <Technology iconId={"js"}/>
+                <Technology iconId={"react"}/>
+                <Technology iconId={"vector"}/>
+                <Technology iconId={"bootstrap"}/>
+                <Technology iconId={"tilda"}/>
+                <Technology iconId={"sass"}/>
+                <Technology iconId={"git"}/>
+                <Technology iconId={"greensock"}/>
+                <Technology iconId={"vscode"}/>
+                <Technology iconId={"octocat"}/>
             </section>
         </StyledDiv>
     );
 };
 
-const StyledSkill = styled.div`
-    height: 120px;
-    width: 120px;
-    background: #a8a7a7;
-    margin: 10px;
-`
-
 const StyledDiv = styled.div`
     .techStack {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 92px;
     }
 
+    h2 {
+        font-family: Poppins, sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 26px;
+        color: #42446E;
+        margin: 0;
+    }
+
+    p {
+        font-family: Poppins, sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 26px;
+        color: #666666;
+        margin: 0;
+
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+    }
+
+    padding: 0;
     width: 1193px;
     height: 557px;
     position: absolute;
@@ -44,5 +69,6 @@ const StyledDiv = styled.div`
     left: 177px;
     display: flex;
     flex-direction: column;
-    background-color: #9f8282;
+    align-items: center;
+    justify-content: space-between;
 `
