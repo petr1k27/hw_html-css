@@ -31,7 +31,6 @@ const StyledMain = styled.main`
 const StyledDiv = styled.div`
     .Name {
         background-image: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
-    ;
         color: transparent;
         background-clip: text;
     }
