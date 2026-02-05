@@ -6,8 +6,8 @@ import {Social} from "../components/social/Social.tsx";
 export const Header = () => {
     return (
         <StyledHeader>
-            <Logo/>
-            <Menu/>
+            <Logo logo={'header'} />
+            <Menu variant={"header"}/>
             <Social/>
         </StyledHeader>
     );
@@ -15,7 +15,7 @@ export const Header = () => {
 
 const StyledHeader = styled.header`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 1193px;
     height: 59px;
